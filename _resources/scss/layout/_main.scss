@@ -1,0 +1,18 @@
+main .hero {
+  background-image: url('../../../assets/images/tabla-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 300px;
+  padding: 8% 10%;
+  text-align: right;
+  color: #EEF987;
+  text-shadow: 0 0 0.2em #7AAB34, 0 0 0.2em #7AAB34,
+		0 0 0.2em #7AAB34
+}
+
+.recetas__card {
+  display: inline-block;
+  padding: 2em;
+  margin: 1px solid #7AAB34;
+}
