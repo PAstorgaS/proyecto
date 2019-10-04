@@ -4,29 +4,28 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- CSS de Bootstrap 4.3.1 -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="assets/scripts/main.bundle.js"></script>
 	<link rel="shortcut icon" type="image/png" href="../assets/images/favicon.png" />
 	<link rel="stylesheet" href="assets/styles/style.css" />
 	<!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
 	<title>Oh_Kiwi</title>
 </head>
 <body>
-		<header class="header">
-			<nav class="navbar navbar-expand-lg">
-		  		<a class="navbar-brand" href="#"><img src="../assets/images/logo.png" alt="logo_OK"></a>
+
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container">
+		  		<a class="navbar-brand" href="#"><img src="../assets/images/Logo.jpg" alt="logo_OK"></a>
 				  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				    	<span class="navbar-toggler-icon"></span>
 				  	</button>
 				  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				    	<ul class="navbar-nav">
-				      	<li class="nav-item active">
-				        	<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-				      	</li>
-				      	<li class="nav-item">
-				        	<a class="nav-link" href="#">Recetas</a>
-				      	</li>
-				      	<li class="nav-item">
-				        	<a class="nav-link" href="#">Contacto</a>
-				      	</li>
+				      	<li class="nav-item"><a class="nav-link" href="#">Acerca de Nosotros</a></li>
+				      	<li class="nav-item"><a class="nav-link" href="#">Recetas</a></li>
+				      	<li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
 				      	<li class="nav-item dropdown">
 				        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				          Ingredientes
@@ -39,47 +38,51 @@
 				      	</li>
 				    	</ul>
 				  	</div>
+					</div>
 			</nav>
-		</header>
-		<main>
-			<div class="hero">
-				<h1>Acerca de Nosotros</h1>
-				<h2>Blog de comida</h2>
-			</div>
-			<div class="recetas">
-				<div class="recetas__card" style="width: 18rem;">
-				  <img src="../assets/images/Rpasta.JPG" class="card-img-top" alt="Receta-Pasta">
-				  <div class="card-body">
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				  </div>
-				</div>
 
-				<div class="recetas__card" style="width: 18rem;">
-					<img src="../assets/images/Rberenjena.JPG" class="card-img-top" alt="Receta-Berenjena">
-					<div class="card-body">
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<header>
+				<div class="hero">
+					<h1>Acerca de Nosotros</h1>
+					<h2>Blog de comida</h2>
+				</div>
+			</header>
+			<section class="container-fluid p-5 bg-light">
+					<h3 class="text-center my-3">Recetas</h3>
+					<div class="recetas__card" style="width: 18rem;">
+					  <img src="../assets/images/Rpasta.JPG" class="card-img-top" alt="Receta-Pasta">
+					  <div class="card-body">
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  </div>
 					</div>
-				</div>
 
-				<div class="recetas__card" style="width: 18rem;">
-					<img src="../assets/images/Rsalmon.JPG" class="card-img-top" alt="Receta-Salmón">
-					<div class="card-body">
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<div class="recetas__card" style="width: 18rem;">
+						<img src="../assets/images/Rberenjena.JPG" class="card-img-top" alt="Receta-Berenjena">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
 					</div>
-				</div>
 
-			</div>
+					<div class="recetas__card" style="width: 18rem;">
+						<img src="../assets/images/Rsalmon.JPG" class="card-img-top" alt="Receta-Salmón">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+
+			</section>
 
 			<div class="ingredientes">
 
 			</div>
-		</main>
 		<footer>
 
 		</footer>
-	<!-- this is where we put our custom functions -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- jQuery 3.3.1 -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Popper JS 1.14.7 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS 4.3.1 -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script src="assets/scripts/main.bundle.js"></script>
 </body>
 </html>
