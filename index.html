@@ -3,12 +3,15 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- CSS de Bootstrap 4.3.1 -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="assets/scripts/main.bundle.js"></script>
 	<link rel="shortcut icon" type="image/png" href="../assets/images/favicon.png" />
+	<!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="assets/styles/style.css" />
 	<!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
 	<title>Oh_Kiwi</title>
@@ -17,7 +20,7 @@
 
 			<nav class="navbar navbar-expand-lg sticky-top">
 				<div class="container">
-		  		<a class="navbar-brand" href="#"><img src="../assets/images/Logo.jpg" alt="logo_OK"></a>
+		  		<a class="navbar-brand" href="#"><img src="../assets/images/Logo.jpg" alt="Logo OK"></a>
 				  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				    	<span class="navbar-toggler-icon"></span>
 				  	</button>
@@ -40,7 +43,7 @@
 				  	</div>
 					</div>
 				</nav>
-					
+
 				<header>
 				<div class="hero">
 					<h1>Acerca de Nosotros</h1>
@@ -48,28 +51,34 @@
 				</div>
 			</header>
 			<section class="container-fluid p-5 bg-light">
-					<a href="index1.html"><h3 class="text-center my-3">Recetas</h3></>
-					<div class="recetas__card" style="width: 18rem;">
-					  <img src="../assets/images/Rpasta.JPG" class="card-img-top" alt="Receta-Pasta">
-					  <div class="card-body">
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					  </div>
-					</div>
+					<a href="index1.html"><h3 class="text-center my-3">Recetas</h3></a>
+					<div class="card-deck">
+							<div class="recetas__card" style="width: 18rem;">
+							  <img src="../assets/images/Rpasta.JPG" class="card-img-top" alt="Receta-Pasta">
+							  <div class="card-body">
+							    <p class="card-text">Olvida el "tallarín con salsa", reemplazamos la salsa industrializada por productos directo de la naturaleza a nuestra mesa*</p>
+									<p>*para personas con afecciones digestivas como colon irritable, se recomienda consumir pasta de harina refinada en vez de pasta integral</p>
+									<a href="#" class="btn btn-outline-secondary mr-4">Ver receta</a>
+							  </div>
+							</div>
 
-					<div class="recetas__card" style="width: 18rem;">
-						<img src="../assets/images/Rberenjena.JPG" class="card-img-top" alt="Receta-Berenjena">
-						<div class="card-body">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						</div>
-					</div>
+							<div class="recetas__card" style="width: 18rem;">
+								<img src="../assets/images/Rberenjena.JPG" class="card-img-top" alt="Receta-Berenjena">
+								<div class="card-body">
+									<p class="card-text">Receta simple especial para quienes inician su transición desde la comida rápida hacia la casera. Estigmatizada como "amarga", es un vegetal consistente, pruébalo al horno con este apanado fácil, como guarnición para casi cualquier plato, o como snack no industrializado</p>
+									<a href="#" class="btn btn-outline-secondary mr-4">Ver receta</a>
+								</div>
+							</div>
 
-					<div class="recetas__card" style="width: 18rem;">
-						<img src="../assets/images/Rsalmon.JPG" class="card-img-top" alt="Receta-Salmón">
-						<div class="card-body">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						</div>
+							<div class="recetas__card" style="width: 18rem;">
+								<img src="../assets/images/Rsalmon.JPG" class="card-img-top" alt="Receta-Salmón">
+								<div class="card-body">
+									<p class="card-text">Incorpora los beneficios del omega 3 a tu dieta con una saludable porción de este pescado de carne "azul", sin fritura ni ingredientes rebuscados*</p>
+									<p>*la porción sugerida de proteína de carne corresponde al tamaño de la palma de tu mano</p>
+									<a href="#" class="btn btn-outline-secondary mr-4">Ver receta</a>
+								</div>
+							</div>
 					</div>
-
 			</section>
 
 			<div class="ingredientes">
@@ -95,12 +104,42 @@
 									</div>
 								</div>
 							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Anterior</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Siguiente</span>
+							</a>
 						</div>
 
 					</div>
 			</div>
-		<footer>
-
+		<section class="container my-5">
+			<h2 class="display-3 text-center my-3">Contáctanos</h2>
+			<p class="text-center my-3">Para detalles de preparación, o si deseas compartir tu receta, contáctanos!</p>
+			<form>
+				<div class="form-group">
+					<label for="formGroupExampleInput">Nombre</label>
+					<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+				</div>
+				<div class="form-group">
+					<label for="ExampleInputEmail">Correo electrónico</label>
+					<input type="email" class="form-control" id="ExampleInputEmail" aria-described-by="emailHelp" placeholder="Correo Electrónico">
+					<small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email</small>
+				</div>
+				<div class="form-group">
+					<label for="ExampleForControlTextarea1">Tu mensaje</label>
+					<textarea class="form-control" id="ExampleFormControlTextarea1" rows="3" placeholder="Escribe aquí tu mensaje"></textarea>
+				</div>
+				<div class="text-center">
+					<button type="submit" class="btn btn-secondary">Enviar</button>
+				</div>
+			</form>
+		</section>
+		<footer class="text-center p-3">
+			<p><i class="fas fa-seedling m-2"></i><i class="fas fa-utensils m-2"></i>Oh Kiwi ! Blog de comidas ! OK ! Blog de comidas ! Oh Kiwi<i class="fas fa-utensils m-2"></i><i class="fas fa-seedling m-2"></i></p>
 		</footer>
 	<!-- jQuery 3.3.1 -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
