@@ -8,16 +8,15 @@ header {
   text-align: right;
 }
 
-h1, h2 {
-  color: #EEF987;
-  text-shadow: 0 0 0.2em #7AAB34, 0 0 0.2em #7AAB34,
-		0 0 0.2em #7AAB34;
-}
-
 .recetas__card {
   display: inline-block;
-  padding: 2em;
-  margin: 1px solid #7AAB34;
+  margin: 1em;
+  padding: 1em;
+  border: solid 1.5px $dark-green;
+}
+
+div p:nth-child(2) {
+  color: $gray;
 }
 
 #ingredientsCarousel img {
@@ -25,6 +24,14 @@ h1, h2 {
 }
 
 section {
-  margin: 2em;
-  padding: 1em 3em;
+  background-color: $yellow;
+}
+
+.us--container {
+  padding: 5em 10em;
+}
+
+#features {
+  font-weight: $bold;
+  color: $brown;
 }

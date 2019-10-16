@@ -1,5 +1,9 @@
 .btn {
-  color: #B77B0C;
-  background-color: #EEF987;
-  border: 1px solid #7AAB34;
+  font-family: $mansalva;
+  font-size: $large;
+  color: $brown;
+  text-shadow: 0 0 0.2em $white, 0 0 0.2em $white,
+		0 0 0.2em $white;
+  background-color: $green;
+  border: 1.5px solid $dark-green;
 }

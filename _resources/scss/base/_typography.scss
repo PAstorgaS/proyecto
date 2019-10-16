@@ -1,0 +1,84 @@
+h1,
+h2,
+h3,
+h4,
+li
+ {
+  font-family: $mansalva;
+}
+
+h1, h2 {
+  color: $yellow;
+  text-shadow: 0 0 0.2em $dark-green, 0 0 0.2em $dark-green,
+		0 0 0.2em $dark-green;
+}
+
+h1 {
+  font-size: $xx-large;
+}
+
+h2,
+h3 {
+  font-size: $x-large;
+}
+
+li {
+  font-size: $large;
+  color: $brown;
+  text-shadow: 0 0 0.2em $white, 0 0 0.2em $white,
+		0 0 0.2em $white;
+}
+
+h4 {
+  font-size: $large;
+  color: $yellow;
+  text-shadow: 0 0 0.2em $dark-green, 0 0 0.2em $dark-green,
+		0 0 0.2em $dark-green;
+}
+
+.contact-form {
+  color: $white;
+
+  p {
+    font-family: $mansalva;
+    font-size: $large;
+  }
+}
+
+.plate--picture {
+  width: 500px;
+}
+
+.recepe--container {
+  margin-bottom: 2em;
+
+  li {
+    font-family: $montserrat;
+    color: $brown;
+    font-size: $medium;
+  }
+}
+
+h5 {
+  color: $brown;
+  font-size: $large;
+}
+
+.preparation--container {
+  margin-bottom: 2em;
+
+  li {
+   font-family: $montserrat;
+   color: $brown;
+   font-size: $medium;
+ }
+}
+
+.recepe--title {
+  font-size: $large;
+  font-weight: $black;
+}
+
+.page-title {
+  margin: 2em auto;
+}
