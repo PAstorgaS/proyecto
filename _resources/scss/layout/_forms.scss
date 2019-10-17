@@ -1,6 +1,6 @@
-.contact-form {
-  background-image: url('../../../assets/images/fondo_vegetales.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 3em  5em;
+@media only screen and (min-width:576px) {
+  .contact-form {
+    @include bgimage(fondo_vegetales, cover, no-repeat);
+    padding: 3em  5em;
+  }
 }

@@ -1,0 +1,24 @@
+nav {
+  background-color: $green;
+
+  img {
+    width: 30%;
+  }
+}
+
+a {
+  color: $brown;
+  margin: auto 1em;
+}
+
+#menu {
+  color: $brown;
+  text-shadow: 0 0 0.2em $white, 0 0 0.2em $white,
+		0 0 0.2em $white;
+}
+
+@media only screen and (min-width:992px) {
+  label {
+    display: none;
+  }
+}

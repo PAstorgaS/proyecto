@@ -6,4 +6,10 @@
 		0 0 0.2em $white;
   background-color: $green;
   border: 1.5px solid $dark-green;
+
+  &:hover  {
+    background-color: $yellow;
+    color: $dark-green;
+    border: 1.5px solid $brown;
+  }
 }

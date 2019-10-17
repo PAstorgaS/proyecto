@@ -1,12 +1,8 @@
-nav {
-  background-color: $green;
-
-  img {
-    width: 25%;
+@media only screen and (min-width:576px) {
+  header {
+    @include bgimage(tabla-hero, cover, no-repeat);
+    height: 25em;
+    padding: 8% 10%;
+    text-align: right;
   }
-}
-
-a {
-  color: $brown;
-  margin: auto 1em;
 }

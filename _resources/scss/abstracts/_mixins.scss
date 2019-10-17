@@ -1,0 +1,6 @@
+@mixin bgimage($name, $size, $repeat) {
+  $url:"../../../../assets/images/#{$name}.jpg";
+  background: url($url);
+  background-size: $size;
+  background-repeat: $repeat;
+}
