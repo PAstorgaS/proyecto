@@ -11,14 +11,14 @@ a {
   margin: auto 1em;
 }
 
-#menu {
+label {
   color: $brown;
   text-shadow: 0 0 0.2em $white, 0 0 0.2em $white,
 		0 0 0.2em $white;
 }
 
 @media only screen and (min-width:992px) {
-  label {
+  #menu {
     display: none;
   }
 }

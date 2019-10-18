@@ -6,7 +6,7 @@
  * los estilos de elementos usados en HTML.
  *
  *
- * Nota: 
+ * Nota:
  * Si tu proyecto usa muchas animaciones, deberías considerar agregar dentro de
  * esta carpeta un archivo /_animations.scss que contenga las definiciones de los
  * @keyframes de todas tus animaciones.
@@ -18,4 +18,4 @@
 
 @import 'reset';
 @import 'typography';
-// @import 'animations';
+@import 'animations';

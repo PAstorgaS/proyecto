@@ -13,18 +13,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,900|Mansalva&display=swap" rel="stylesheet">
 	<!--Font Awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
 	<link rel="stylesheet" href="assets/styles/style.css" />
-
 	<title>Oh_Kiwi</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg sticky-top">
 		<div class="container">
 			<a class="navbar-brand" href="#"><img src="../assets/images/Logo.jpg" alt="Logo OK"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				<div class="collapsible col-xs-12" id="menu">
+					<label for="menu"><i class="fas fa-bars fa-2x"></i></label>
+				</div>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="us.html">Nosotros</a></li>
@@ -46,9 +44,9 @@
 		</nav>
         <div class="text-center">
           <h2 class="page-title"><i class="fas fa-seedling fa-1.5x m-2"></i><i class="fas fa-utensils fa-1.5x m-2"></i> Recetas <i class="fas fa-utensils fa-1.5x m-2"></i><i class="fas fa-seedling fa-1.5x m-2"></i></h2>
-          <img src="../assets/images/Rpasta.JPG" class="plate--picture" alt="Receta">
+          <img src="../assets/images/Rpasta.jpg" class="plate--picture" alt="Receta">
           <h2 class="page-title">Pasta</h2>
-          <img src="../assets/images/optimisediet.svg" alt="icono comidas">
+						<object class="draw" data="../assets/images/optimisediet.svg" type="image/svg+xml"></object>
           <div class="container text-left">
               <h5 class="recepe--title">Ingredientes</h5>
               <div class="recepe--container">
@@ -76,19 +74,21 @@
         </div>
 				<div class="container__valoracion">
 					<h4 class="title__valoracion">¿Te gustó esta Receta?</h4>
-					<p class="valoracion">
-						<input id="radio1" type="radio" name="likes" value="5">
-						<label for="radio1"><i class="fas fa-2x fa-apple-alt"></i></label>
-						<input id="radio2" type="radio" name="likes" value="4">
-						<label for="radio2"><i class="fas fa-2x fa-apple-alt"></i></label>
-						<input id="radio3" type="radio" name="likes" value="3">
-						<label for="radio3"><i class="fas fa-2x fa-apple-alt"></i></label>
-						<input id="radio4" type="radio" name="likes" value="2">
-						<label for="radio4"><i class="fas fa-2x fa-apple-alt"></i></label>
-						<input id="radio5" type="radio" name="likes" value="1">
-						<label for="radio5"><i class="fas fa-2x fa-apple-alt"></i></label>
-					</p>
-				</div>
+					<div class="apple-container">
+						<p class="valoracion">
+						  <input id="radio1" type="radio" name="apple" value="5">
+						  <label for="radio1"><i class="fas fa-apple-alt fa-2x"></i></label>
+						  <input id="radio2" type="radio" name="apple" value="4">
+						  <label for="radio2"><i class="fas fa-apple-alt fa-2x"></i></label>
+						  <input id="radio3" type="radio" name="apple" value="3">
+						  <label for="radio3"><i class="fas fa-apple-alt fa-2x"></i></label>
+						  <input id="radio4" type="radio" name="apple" value="2">
+						  <label for="radio4"><i class="fas fa-apple-alt fa-2x"></i></label>
+						  <input id="radio5" type="radio" name="apple" value="1">
+						  <label for="radio5"><i class="fas fa-apple-alt fa-2x"></i></label>
+						</p>
+					</div>
+			</div>
       <footer class="text-center p-3">
         <p><i class="fas fa-seedling m-2"></i><i class="fas fa-utensils m-2"></i>Oh Kiwi ! Blog de comidas ! OK ! Blog de comidas ! Oh Kiwi<i class="fas fa-utensils m-2"></i><i class="fas fa-seedling m-2"></i></p>
       </footer>

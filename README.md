@@ -1,4 +1,22 @@
-# Webpack HTML Boilerplate
+## Nombre del Proyecto
+Oh_Kiwi
+
+## Descripción
+Oh Kiwi es un proyecto personal. OK es un sitio web de difusión de comida "sana", entregando experiencia personal con ciertos alimentos naturales, y preparaciones culinarias simples. Los usuarios son personas que buscan recetas en internet en un blog "en chileno" con ingredientes de temporada. La conversión se hará mediante "likes" en cada Receta, o mediante contacto por llenado del  Formulario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Introducción
 Este boilerplate de HTML tiene como objetivo ayudar a la gente que recién comienza en SASS (y a los que no también 😉) a desarrollar sitios integrando esta tecnología sin tener que realizar configuraciones extrañas o a evitar los posibles problemas que pueda llevar el desarrollo en SASS directamente en la consola.
@@ -47,5 +65,5 @@ Es necesario aclarar que los comandos `npm run start` y `npm run build` deben se
 El puerto por defecto que se utilizará será el :8081, sin embargo dentro de las configuraciones podremos cambiarlo en el archivo `webpack.c.js`.
 Una vez que se ejecute el comando `npm start` se abrirá el navegador por defeto del computador, sin embargo podríamos especificar qué navegador queremos que se abra; por ejemplo con la opción: `open: 'Google Chrome'` en las configuraciones del devServer, en el anteriormente mencionado archivo.
 
-#### Carpetas para el Servidor 
+#### Carpetas para el Servidor
 En la carpeta raíz encontrarás otras dos que su nombre comienzan con `_`, las que serían: `_resources` y `_webpack`. Se han creado con ese nombre con el objetivo de recordar rápidamente cuales son las carpetas que no se deben subir al servidor. La primera porque contiene todos los archivos SASS que aunque quieras compartir el código fuente, el navegador igualmente no tendrá como mostrar ese contenido. La segunda es porque los archivos de configuración de Webpack son muy pesados y agregarías peso innecesario en el servidor.

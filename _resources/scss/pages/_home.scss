@@ -13,3 +13,11 @@
     font-weight: $black;
     text-align: left;
 }
+
+#kiwi {
+  @include bgimage(tabla-cuchillo, cover, no-repeat);
+}
+
+.plate--picture {
+  border-radius: 50%;
+}

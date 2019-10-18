@@ -1,13 +1,3 @@
-.container__valoracion {
-  text-align: center;
-}
-
-.title__valoracion {
-  color: $yellow;
-  text-shadow: 0 0 0.2em $gray, 0 0 0.2em $gray,
-		0 0 0.2em $gray;
-}
-
 p.valoracion {
   position: relative;
   overflow: hidden;
@@ -22,12 +12,15 @@ p.valoracion input {
 p.valoracion label {
   float: right;
   color: $gray;
-  margin-left: .5em;
-  margin-right: .5em;
+  margin: auto .5em;
 }
 
 p.valoracion label:hover,
 p.valoracion label:hover ~ label,
 p.valoracion input:checked ~ label {
   color: $bgreen;
+}
+
+.container__valoracion {
+  text-align: center;
 }

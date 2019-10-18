@@ -1,0 +1,21 @@
+@keyframes latido {
+     0%,  50% ,  100%    {
+       transform:scale(1);
+       animation-timing-function: ease-in;
+  }
+     25%, 75%            {
+       transform:scale(1.25);
+       animation-timing-function: ease-out;
+  }
+}
+
+.draw {
+  height: 5em;
+  width: 5em;
+  transform:scale(1);
+  color: $white;
+  background:currentColor;
+  animation-name: latido;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
